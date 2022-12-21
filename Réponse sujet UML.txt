@@ -1,0 +1,4 @@
+Question 1: l'acteur est JOJO
+Question 2: ça dépends si la prise d'essence de JOJO a de nouvelles fonctions
+question 3: Non
+Question 4:En rajoutant une "bulle" cas d'utilisation 
