@@ -1,0 +1,23 @@
+Explanation:
+
+    The "Company" class represents the manufacturing and distribution company. It has attributes such as "name", "location", and "revenue". It has operations such as "addProduct", "addDepot", and "addCustomer".
+    The "Product" class represents a product sold by the company. It has attributes such as "id", "name", and "price". It has an operation "addStock" to add stock to a depot.
+    The "Depot" class represents a storage location for the company's products. It has attributes such as "id" and "location". It has an operation "addStock" to add stock for a product.
+    The "Customer" class represents a customer of the company. It has attributes such as "id", "name", "address", "totalRevenue", and "discountRate". It has an operation "placeOrder" to place an order with the company.
+    The "Order" class represents an order placed by a customer. It has attributes such as "id", "date", and "deliveryDeadline". It has an operation "addLine" to add a line item to the order.
+    The "LineItem" class represents a single line item in an order. It has attributes such as "productId", "quantity", "deliveryCode", and "deliveryDeadline".
+    The "Invoice" class represents an invoice for an order. It has attributes such as "id", "date", and "amount". It has an operation "addLine" to add a line item to the invoice.
+    The "InvoiceLine" class represents a single line item in an invoice. It has attributes such as "productId", "quantity", and "amount".
+
+[Revised class diagram image]
+
+Explanation:
+
+    The "Company" class is represented by a rectangle with the name "Entreprise" in the top compartment, the attributes "nom", "localisation", and "chiffre d'affaires" in the middle compartment, and the operations "ajouterProduit", "ajouterDepot", and "ajouterClient" in the bottom compartment.
+    The "Product" class is represented by a rectangle with the name "Produit" in the top compartment, the attributes "id", "nom", and "prix" in the middle compartment, and the operation "ajouterStock" in the bottom compartment.
+    The "Depot" class is represented by a rectangle with the name "Depot" in the top compartment, the attributes "id" and "localisation" in the middle compartment, and the operation "ajouterStock" in the bottom compartment.
+    The "Customer" class is represented by a rectangle with the name "Client" in the top compartment, the attributes "id", "nom", "adresse", "chiffre d'affaires total", and "taux de réduction" in the middle compartment, and the operation "passerCommande" in the bottom compartment.
+    The "Order" class is represented by a rectangle with the name "Commande" in the top compartment, the attributes "id", "date", and "échéance de livraison" in the middle compartment, and the operation "ajouterLigne" in the bottom compartment.
+    The "LineItem" class is represented by a rectangle with the name "LigneArticle" in the top compartment, the attributes "idProduit", "quantité", "codeLivraison", and "échéance de livraison" in the middle compartment, and no operations in the bottom compartment.
+    The "Invoice" class is represented by a rectangle with the name "Facture" in the top compartment, the attributes "id", "date", and "montant" in the middle compartment, and the operation "ajouterLigne" in the bottom compartment.
+    The "InvoiceLine" class is represented by a rectangle with the name "LigneFacture" in the top compartment, the attributes "idProduit", "quantité", and "montant" in the middle compartment, and no operations in the bottom compartment.
