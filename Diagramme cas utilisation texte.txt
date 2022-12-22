@@ -1,0 +1,61 @@
+Scenario principal pour ce cas d'utilisation
+
+1. Le caissier enregistre le numéro d'identification (CPU) de chaque article et
+
+bip l'article
+
+Scenario alternatif: Le code barre est non visible
+
+1a. Le caissier saisit le code barre manuellement
+
+2. La caisse enregistre la quantité à 1
+
+Scenario alternatif: La quantité est supérieure à 1
+
+2a. Le caissier indique la quantité des articles 
+
+3. La caisse affiche le prix de chaque article et son libellé
+
+4. Lorsque tous les achats sont enregistrés, le caissier signale la fin de la vente en appuyant sur la touche Total
+
+Scenario alternatif: Enregistrement les coupon 4a Le caissier enregistre les coupons de réductions
+
+5. La caisse affiche le total des achats
+
+6. La caisse propose le mode de paiement
+
+Scenario alternatif Paiement numéraire
+
+Scenario alternatif: Paiement par cheque
+
+Scenario alternatif: Paiement par carte bancaire
+
+7. Le caissier enregistre le moyen de paiement
+
+8. La caisse enregistre la vente et imprime le ticket 9. Le caissier donne le ticket de caisse au client
+
+3. La caisse affiche le prix de chaque article et son libellé
+
+4. Lorsque tous les achats sont enregistrés, le caissier signale la fin de la ver en appuyant sur la touche "Total"
+
+Scénario alternatif: Enregistrement les coupon
+
+4a. Le caissier enregistre les coupons de réductions
+
+5. La caisse affiche le total des achats
+
+6. La caisse propose le mode de paiement Scenario alternatif Paiement numeraire
+
+6a. Le caissier rend la monnaie au client
+
+Scénario alternatif: Paiement par cheque Scenario alternatif Paiement par carte bancaire
+
+7. Le caissier enregistre le moyen de paiement
+
+8. La caisse enregistre la vente et imprime le ticket
+
+9. Le caissier donne le ticket de caisse au client
+
+Variantes, cas d'erreurs
+
+Scenario derreur code barre diisible 1b. La caisse signale au caissier que le code barre est illis ble
