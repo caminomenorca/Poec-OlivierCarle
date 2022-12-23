@@ -1,0 +1,42 @@
++---------------+         +---------------+
+|  Flight       |<>-------|  Departure    |
++---------------+         +---------------+
+| - number      |         | - flight      |
+| - departure   |         | - passengers  |
+| - arrival     |         | - airplane    |
+| - departure   |         | - personnel    |
+| - arrival     |         | - date        |
+| - distance    |         +---------------+
+| - frequency   |
++---------------+
+
++---------------+
+|  Passenger    |
++---------------+
+| - name        |
+| - address     |
+| - phone       |
++---------------+
+
++---------------+
+|  Airplane     |
++---------------+
+| - number      |
+| - type        |
+| - capacity    |
++---------------+
+
++---------------+
+|  Personnel    |
++---------------+
+| - name        |
+| - address     |
+| - phone       |
++---------------+
+
+The relationships between the classes are as follows:
+
+The Departure class has a one-to-one relationship with the Flight class, indicated by the arrow pointing from Departure to Flight. This means that each Departure instance is associated with exactly one Flight instance.
+The Departure class has a one-to-many relationship with the Passenger class, indicated by the arrow with a diamond pointing from Departure to Passenger. This means that each Departure instance can be associated with multiple Passenger instances.
+The Departure class has a one-to-one relationship with the Airplane class, indicated by the arrow pointing from Departure to Airplane. This means that each Departure instance is associated with exactly one Airplane instance.
+The Departure class has a one-to-many relationship with the Personnel class, indicated by the arrow with a diamond pointing from Departure to Personnel. This means that each Departure instance can be associated with multiple Personnel instances.
