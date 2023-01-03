@@ -1,0 +1,49 @@
+Nom : Traiter le passage en caisse
+
+Acteur : Le responsable/ le caissier / le centre bancaire
+/ le système de gestion de stocks
+
+Contexte : pour un client qui effectue ses achats en passage en caisse
+
+Données d’entrée  et pré-conditions : les articles du client
+Scénario principal pour ce cas d’utilisation :
+
+1. Le caissier enregistre le numéro d’identification (CPU) de chaque article et bip l’article
+    
+    Scénario alternatif : Le code barre est non visible
+    
+    1a. Le caissier saisit le code barre manuellement
+    
+2. La caisse enregistre la quantité à 1
+    
+    Scénario alternatif : La quantité est supérieure à 1
+    
+    2a. Le caissier indique la quantité des articles
+    
+3. La caisse affiche le prix de chaque article et son libellé
+4. Lorsque tous les achats sont enregistrés, le caissier signale la fin de la vente en appuyant sur la touche ‘Total’
+    
+    Scénario alternatif : Enregistrement les coupon
+    
+    4a. Le caissier enregistre les coupons de réductions
+    
+5. La caisse affiche le total des achats
+6. La caisse propose le mode de paiement
+    
+    Scénario alternatif : Paiement numéraire
+    
+    6a. Le caissier rend la monnaie au client
+    
+    Scénario alternatif : Paiement par chèque
+    
+    Scénario alternatif : Paiement par carte bancaire
+    
+7. Le caissier enregistre le moyen de paiement
+8. La caisse enregistre la vente et imprime le ticket
+9. Le caissier donne le ticket de caisse au client
+
+Variantes, cas d’erreur : 
+
+Scénario d’erreur :  code barre illisible
+
+1b. La caisse signale au caissier que le code barre est illisible
