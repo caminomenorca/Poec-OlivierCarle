@@ -1,0 +1,30 @@
+    Préconditions :
+
+    Le cas d'utilisation "Inscription d'un étudiant" nécessite que l'étudiant paie une cotisation annuelle pour devenir abonné.
+    Le cas d'utilisation "Inscription d'un enseignant" nécessite que l'enseignant soit employé par l'université.
+    Le cas d'utilisation "Inscription d'un abonné externe" nécessite que l'abonné externe paie une cotisation et que le nombre d'abonnés externes ne dépasse pas 10 % des inscrits.
+    Le cas d'utilisation "Prolongation exceptionnelle de l'emprunt" nécessite que l'abonné ait déjà emprunté un ouvrage et que le délai d'emprunt soit expiré ou sur le point de l'être.
+
+    Postconditions :
+
+    Le cas d'utilisation "Inscription d'un étudiant" permet à l'étudiant de devenir abonné de la bibliothèque et d'avoir accès à ses services.
+    Le cas d'utilisation "Inscription d'un enseignant" permet à l'enseignant de devenir abonné de la bibliothèque et d'avoir accès à ses services.
+    Le cas d'utilisation "Inscription d'un abonné externe" permet à l'abonné externe de devenir abonné de la bibliothèque et d'avoir accès à ses services.
+    Le cas d'utilisation "Prolongation exceptionnelle de l'emprunt" permet à l'abonné de prolonger l'emprunt de l'ouvrage de 3 à 5 semaines.
+
+    Exceptions :
+
+    Si le nombre d'abonnés externes est déjà au maximum (10 % des inscrits), le cas d'utilisation "Inscription d'un abonné externe" échouera.
+    Si l'abonné a déjà emprunté le maximum d'ouvrages autorisé (3 ouvrages), le cas d'utilisation "Emprunt d'un ouvrage" échouera.
+    Si l'abonné n'a pas enc
+
+
+
+    Exceptions :
+
+    Si le nombre d'abonnés externes est déjà au maximum (10 % des inscrits), le cas d'utilisation "Inscription d'un abonné externe" échouera.
+    Si l'abonné a déjà emprunté le maximum d'ouvrages autorisé (3 ouvrages), le cas d'utilisation "Emprunt d'un ouvrage" échouera.
+    Si l'abonné n'a pas encore emprunté d'ouvrage, le cas d'utilisation "Prolongation exceptionnelle de l'emprunt" échouera.
+
+    Extensions :
+Le cas d'utilisation "Emprunt d'un ouvrage" peut être étendu pour inclure des scénarios alternatifs tels que l'emprunt d'un ouvrage par un enseignant (qui peut emprunter un nombre illimité d'ouvrages) ou par un abonné externe (qui peut être soumis à des restrictions supplémentaires).
