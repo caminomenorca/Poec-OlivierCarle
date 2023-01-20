@@ -1,0 +1,28 @@
+- donc le dé n'est pas une classe d'association pour moi. ça serait plutot partie.
+
+	--> mettre Partie en classe d'association
+
+
+
+- et le dés n'est pas responsable de son nombre de dés. je mettrais plutot une classe jeu.
+
+	--> remplacer Dés par Jeu, et enlever classe d'association
+
+
+ 
+-Ensuite le gestionnaire de compte ne devraient pas avoir une liste d'utilisateurs enregistrés et de mot de passe puisqu'il y a  la relation entre gestionnaire et personne.
+
+	-->supprimer check password et check login
+
+
+
+
+-De plus dans la partie, il y a joueur 1 et joueur 2 et pour moi, pareil c'est la classe personne qui est référente.
+
+	-->supprimer joueur1 et joueur2
+
+
+
+- à quoi correspond le jets de dés dans la partie ?
+
+	-->remplacer jets1 et 2 par ?? résultats dés ? redondant avec sorties ?
