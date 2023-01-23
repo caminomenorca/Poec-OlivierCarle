@@ -1,0 +1,6 @@
+en cas de multiplicité supérieur 1 d'un coté il faut "cif" dans le rond du milieu:
+"Une CIF ou Contrainte d’Intégrité Fonctionnelle est un type d’association entre 2 entités.
+
+Elle se caractérise par un 1 en cardinalité supérieure (0,1 ou 1,1) sur une des pattes de la relation. On dit alors que la relation est porteuse d’une dépendance fonctionnelle. Une CIF indique donc une dépendance. Une des entités de l’association est déterminée par la connaissance d’une (ou plusieurs) autre entité présente dans l’association. Cette une association forte et hiérarchique. Sans entité parent, il ne peut pas y avoir d’entité enfant. À ne pas confondre avec une CIM.
+
+Une CIF se transforme ensuite (lorsque l’on passe au MPD / MLD) en une clé étrangère. Cette clé étrangère est un champ ajouté à la table située du côté du 1 en cardinalité maximale qui reprend le champ clé primaire de la table située de l’autre côté de la relation."
